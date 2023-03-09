@@ -28,6 +28,19 @@ body,
   border: 1px solid #05325f;
 }
 
+.toast {
+  color: #fff;
+}
+
+.toast-header {
+  background-color: #05325f;
+  color: #fff;
+}
+
+.toast-body {
+  background-color: #033f7a;
+}
+
 .login {
   text-transform: uppercase;
 }
