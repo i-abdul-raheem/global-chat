@@ -2,8 +2,9 @@
 
 body,
 #root {
-  background-color: #123;
+  /* background-color: #123; */
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
 }
 
 .App {
@@ -43,4 +44,36 @@ body,
 
 .login {
   text-transform: uppercase;
+}
+
+.hover-chat-thumb:hover {
+  background-color: rgb(21, 47, 72);
+}
+
+.hover-chat-thumb.active {
+  background-color: rgb(21, 47, 72);
+}
+
+.modal-body {
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-menu {
+  transform: translate(10px, 38px);
+}
+
+.btn-hover {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.btn-hover:hover {
+  background-color: #05325f;
 }
